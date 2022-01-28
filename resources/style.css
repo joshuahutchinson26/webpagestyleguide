@@ -1,0 +1,306 @@
+/*Table of Contents================*/
+/*
+1.  Fonts
+2.  Color Scheme
+3.  Whole Document
+4.  Navigation Bar
+5.  Gradient Space
+6.  Color Section
+7.  Font Section
+8.  Heading Section
+9.  Button Section
+10. Footer section
+===================================*/
+
+
+/* 1. Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Roboto+Mono:wght@300&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto Mono', monospace;*/
+/*font-family: 'Merriweather', serif;*/
+
+/* 2. Color Scheme
+#8C3037 maroon
+#73292F dark maroon
+#F2F2F2 white
+#8C8C8C gray
+#0D0D0D black
+*/
+
+/* 3. Whole Document*/
+* {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #0D0D0D;
+}
+/*====================*/
+
+/* 4. Navigation Section*/
+h1 {
+  color: #F2F2F2;
+  text-shadow: 1px 3px 3px #0D0D0D;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  background-color: #8C3037;
+  width: 900px;
+  height: 15vh;
+  margin: 10px auto 0;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+li a {
+  text-decoration: none;
+  color: #0D0D0D;
+  padding: 3px;
+}
+li a:hover {
+  background-color: #F2F2F2;
+  border-radius: 50px;
+}
+.btn {
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+}
+/*==========================*/
+
+/* 5. Gradient Section*/
+.linear-gradient-section {
+  background: linear-gradient(#8C3037 0%, #0D0D0D 100%);
+  height: 10vh;
+  width: 900px;
+  margin: 0 auto;
+}
+/*==========================*/
+
+/* 6. Color Section*/
+h2 {
+  color: #F2F2F2;
+  text-shadow: 1px 3px 3px #0D0D0D;
+  padding: 0 20px;
+  width: 900px;
+  background-color: #73292F;
+  margin: 0 auto;
+}
+#colors-table table {
+  border-collapse: collapse;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  width: 900px;
+  height: 20vh;
+}
+#colors-table thead, tbody, td, tfoot {
+  text-align: center;
+  padding: 0 10px;
+}
+#colors-table thead td {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+#colors-table tbody td, tfoot td{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+.mono1 {
+  background-color: #DBE5FF;
+}
+.mono2 {
+  background-color: #678FFE;
+}
+.mono3 {
+  background-color: #0247FE;
+}
+.analog1 {
+  background-color: #FD4D0C;
+}
+.analog2 {
+  background-color: #FB8604;
+}
+.analog3 {
+  background-color: #FCBA12;
+}
+.tri1 {
+  background-color: #79AB9C;
+}
+.tri2 {
+  background-color: #CA3E9E;
+}
+.tri3 {
+  background-color: #E8D093;
+}
+/*=============================*/
+
+/* 7. Font Section*/
+#fonts-table {
+  width: 900px;
+  font-size: 13px;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  padding: 40px 10px;
+}
+#fonts-table td {
+  padding: 5px 10px;
+}
+#robofont {
+  font-family: 'Roboto Mono', monospace;
+}
+#monofont {
+  font-family: 'Montserrat', sans-serif;
+}
+#merrifont {
+  font-family: 'Merriweather', serif;
+}
+.font-size {
+  margin: 0 auto;
+}
+.font-size th {
+  font-size: 20px;
+}
+.font64 {
+  font-size: 64px;
+}
+.font56 {
+  font-size: 56px;
+}
+.font48 {
+  font-size: 48px;
+}
+.font32 {
+  font-size: 32px;
+}
+.font24 {
+  font-size: 24px;
+}
+.font16 {
+  font-size: 16px;
+}
+.font8 {
+  font-size: 8px;
+}
+/*==========================*/
+
+/* 8. Heading Section*/
+#headings-list {
+  background-color: #F2F2F2;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+.h1sz {
+  font-size: 2.3em;
+  color: green;
+  text-shadow: 1px 1px 2px black;
+}
+.h2sz {
+  font-size: 1.5em;
+  color: yellow;
+  text-shadow: 1px 1px 2px black;
+}
+.h3sz {
+  font-size: 1.1em;
+  color: orange;
+  text-shadow: 1px 1px 2px black;
+}
+.h4sz {
+  font-size: 1em;
+  color: red;
+  text-shadow: 1px 1px 2px black;
+}
+.h5sz {
+  font-size: 0.83em;
+  color: purple;
+  text-shadow: 1px 1px 2px black;
+}
+.h6sz {
+  font-size: 0.8em;
+  color: blue;
+  text-shadow: 1px 1px 2px black;
+}
+/*==================================*/
+
+/* 9. Button Section*/
+#button-list {
+  background-color: #F2F2F2;
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+#button-list li {
+  padding: 75px;
+}
+.static {
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.static:hover {
+  background-color: lightgray;
+}
+.hover {
+  padding: 10px;
+  font-size: 20px;
+  background-color: lightgray;
+}
+.hover:hover {
+  background-color: black;
+  color: white;
+}
+.press {
+  font-size: 20px;
+  padding: 10px;
+  background-color: lightgray;
+}
+.press:hover {
+  background-color: black;
+  color: white;
+}
+.press:active {
+  background-color: green;
+  color: black;
+}
+/*==============================*/
+
+/* 10. Footer Section*/
+h5 {
+  color: #F2F2F2;
+  text-shadow: 1px 1px 1px #0D0D0D
+}
+footer {
+  background-color: #73292F;
+  width: 900px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+}
+.topbtn {
+  font-size: 16px;
+  margin: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 50px;
+}
+.topbtn:hover {
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+}
+/*===============================*/
